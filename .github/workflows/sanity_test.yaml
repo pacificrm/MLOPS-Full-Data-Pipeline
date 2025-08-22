@@ -42,7 +42,6 @@ jobs:
         run: |
           dvc pull sample -f
           dvc pull model.joblib.dvc -f
-          dvc pull metrics.txt.dvc -f
 
       - name: Run sanity test
         # Run the unittest and redirect all output to a log file.

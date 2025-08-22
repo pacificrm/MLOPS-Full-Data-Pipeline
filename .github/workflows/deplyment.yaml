@@ -1,0 +1,58 @@
+name: Build and Deploy to GKE
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT_ID: just-skyline-461512-a8
+      REGION: us-central1
+      CLUSTER_NAME: oppe2-demo-cluster
+      REPO_NAME: my-repo
+      IMAGE_NAME: fraud-app
+      NAMESPACE: oppe2-app
+      DEPLOYMENT_NAME: fraud-detection-api
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_CREDENTIALS }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Install GKE Auth Plugin
+        run: gcloud components install gke-gcloud-auth-plugin --quiet
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker $REGION-docker.pkg.dev
+
+      - name: Build Docker image
+        run: |
+          docker build -t $REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$IMAGE_NAME:latest .
+
+      - name: Push Docker image
+        run: |
+          docker push $REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$IMAGE_NAME:latest
+
+      - name: Set up GKE credentials
+        run: |
+          gcloud container clusters get-credentials $CLUSTER_NAME --region $REGION --project $PROJECT_ID
+
+      - name: Deploy to GKE
+        run: |
+          kubectl apply -f k8s/
+
+      - name: Force rollout restart
+        run: |
+          kubectl rollout restart deployment/$DEPLOYMENT_NAME -n $NAMESPACE
+

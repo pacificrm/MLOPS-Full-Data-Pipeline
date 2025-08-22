@@ -1,4 +1,5 @@
 /data
 /dataset
 /sample
+/__pycache__/
 /model.joblib

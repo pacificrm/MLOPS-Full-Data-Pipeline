@@ -1,0 +1,76 @@
+ame: Sanity Test
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  test_model:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Set up CML
+        uses: iterative/setup-cml@v2
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Authenticate to GCP for DVC
+        env:
+          GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
+        run: |
+          echo "$GCP_CREDENTIALS" > gcp-key.json
+          gcloud auth activate-service-account --key-file=gcp-key.json
+          dvc remote modify myremote credentialpath gcp-key.json
+
+      - name: Pull artifacts from DVC
+        run: |
+          dvc pull sample -f
+          dvc pull model.joblib.dvc -f
+          dvc pull metrics.txt.dvc -f
+
+      - name: Run sanity test
+        # Run the unittest and redirect all output to a log file.
+        # The '|| true' ensures this step passes even if tests fail,
+        # so the CML report can always be generated.
+        run: |
+          python -m unittest test.py > test_log.txt 2>&1 || true
+
+      - name: Create CML report
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "# :microscope: Model Sanity Test Report" > report.md
+          
+          echo "## :chart_with_upwards_trend: Full Training Metrics (from train.py)" >> report.md
+          echo "\`\`\`" >> report.md
+          cat metrics.txt >> report.md
+          echo "\`\`\`" >> report.md
+          
+          echo "## :test_tube: Sanity Test Metrics (on sample data)" >> report.md
+          echo "\`\`\`" >> report.md
+          cat sample_metrics.txt >> report.md
+          echo "\`\`\`" >> report.md
+          
+          echo "## :page_with_curl: Full Test Log" >> report.md
+          echo "\`\`\`" >> report.md
+          cat test_log.txt >> report.md
+          echo "\`\`\`" >> report.md
+          
+          cml comment create --publish report.md
+

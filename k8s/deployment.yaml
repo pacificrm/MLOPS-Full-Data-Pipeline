@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fraud-detection-api
+  namespace: oppe2-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fraud-detection-api
+  template:
+    metadata:
+      labels:
+        app: fraud-detection-api
+    spec:
+      # Ensure you have a service account with permissions for Cloud Trace
+      serviceAccountName: telemetry-access
+      containers:
+      - name: fraud-api-container
+        image: us-central1-docker.pkg.dev/just-skyline-461512-a8/my-repo/fraud-app:latest
+        ports:
+        - containerPort: 8001
+        readinessProbe:
+          httpGet:
+            path: /ready_check
+            port: 8001
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /live_check
+            port: 8001
+          initialDelaySeconds: 15
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"

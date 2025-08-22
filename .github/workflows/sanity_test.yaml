@@ -1,4 +1,4 @@
-ame: Sanity Test
+name: Sanity Test
 
 on:
   workflow_dispatch:

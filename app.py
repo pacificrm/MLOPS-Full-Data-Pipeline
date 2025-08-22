@@ -65,7 +65,7 @@ logger.info({"event": "application_initializing", "status": "starting"})
 
 try:
     # This line specifically loads your trained model from the file.
-    model = joblib.load("model.joblib")
+    model = joblib.load("new_model.joblib")
     logger.info({
         "event": "model_load_success",
         "model_path": "model.joblib",

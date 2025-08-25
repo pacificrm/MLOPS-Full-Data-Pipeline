@@ -26,32 +26,32 @@ The pipeline is split into two main automated workflows: Continuous Integration 
 
 ```mermaid
 graph TD
-    subgraph "Git Repository (GitHub)"
-        A[Developer pushes to `dev` or feature branch] --> B{GitHub Actions CI};
-        J[PR Merged to `main`] --> K{GitHub Actions CD};
+    subgraph "Git Repository"
+        A[Developer pushes to dev or feature branch] --> B{GitHub Actions CI}
+        J[PR Merged to main] --> K{GitHub Actions CD}
     end
 
     subgraph "CI: Training & Analysis Workflow"
-        B -- Triggers on Pull Request --> C[Setup Environment];
-        C --> D[DVC: Pull Data & Model];
-        D --> E[Run Sanity Tests];
-        E --> F[CML: Generate & Post Report to PR];
+        B -->|Triggers on Pull Request| C[Setup Environment]
+        C --> D[DVC: Pull Data & Model]
+        D --> E[Run Sanity Tests]
+        E --> F[CML: Generate & Post Report to PR]
     end
 
     subgraph "CD: Deployment Workflow"
-        K -- Triggers on push to `main` --> L[Build & Push API Docker Image];
-        L --> M[Deploy to GKE];
+        K -->|Triggers on push to main| L[Build & Push API Docker Image]
+        L --> M[Deploy to GKE]
     end
 
-    subgraph "Production Environment (GKE)"
-        M --> N[Service LoadBalancer];
-        N --> O[API Pods (Autoscaled)];
-        O -- Emits logs/traces --> P((Google Cloud Logging & Trace));
+    subgraph "Production Environment"
+        M --> N[Service LoadBalancer]
+        N --> O[API Pods Autoscaled]
+        O -->|Emits logs/traces| P[Google Cloud Logging & Trace]
     end
 
-    subgraph "Experimentation (Local/VM)"
-        X[Data Scientist runs experiments] -- Logs to --> Y((MLflow Tracking Server));
-        Y --> Z[Poisoning, Fairness, Drift Reports];
+    subgraph "Experimentation"
+        X[Data Scientist runs experiments] -->|Logs to| Y[MLflow Tracking Server]
+        Y --> Z[Poisoning, Fairness, Drift Reports]
     end
 ```
 

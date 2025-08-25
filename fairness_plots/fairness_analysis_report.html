@@ -1,0 +1,51 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Fairness Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .metric-table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            .metric-table th, .metric-table td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+            .metric-table th { background-color: #f2f2f2; }
+            .section { margin: 30px 0; }
+        </style>
+    </head>
+    <body>
+        <h1>🔍 Comprehensive Fairness Analysis Report</h1>
+        <div class="section">
+            <h2>📊 Overall Performance</h2>
+            <table class="metric-table">
+                <tr><th>Metric</th><th>Value</th></tr>
+                <tr><td>Accuracy</td><td>0.9993</td></tr>
+                <tr><td>Precision</td><td>0.8667</td></tr>
+                <tr><td>Recall</td><td>0.7222</td></tr>
+                <tr><td>Selection Rate</td><td>0.0016</td></tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>👥 Performance by Group</h2>
+            <table class="metric-table">
+                <tr><th>Group</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>Selection Rate</th></tr>
+    
+                <tr>
+                    <td>Group 0</td>
+                    <td>0.9991</td>
+                    <td>0.8077</td>
+                    <td>0.7241</td>
+                    <td>0.0018</td>
+                </tr>
+        
+                <tr>
+                    <td>Group 1</td>
+                    <td>0.9994</td>
+                    <td>0.9474</td>
+                    <td>0.7200</td>
+                    <td>0.0013</td>
+                </tr>
+        
+            </table>
+        </div>
+    </body>
+    </html>
+    

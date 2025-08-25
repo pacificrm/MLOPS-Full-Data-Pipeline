@@ -1,0 +1,1553 @@
+{
+    "metrics": [
+        {
+            "id": "15e89f895b482f9b84ba7274ed18a106",
+            "metric_id": "DriftedColumnsCount(drift_share=0.5)",
+            "value": {
+                "count": 23.0,
+                "share": 0.7419354838709677
+            }
+        },
+        {
+            "id": "764ba5f038fa32379e5f0a8f9c2a2ca9",
+            "metric_id": "ValueDrift(column=Time)",
+            "value": 4.024547988654959
+        },
+        {
+            "id": "18073d627ba9625645136a4e3c6d8c41",
+            "metric_id": "ValueDrift(column=V1)",
+            "value": 0.27977472621716465
+        },
+        {
+            "id": "c6691bbed97e9bbb9197ac710d8da157",
+            "metric_id": "ValueDrift(column=V2)",
+            "value": 0.045718088103715054
+        },
+        {
+            "id": "2f4236f6110ee34094141b0a63fce506",
+            "metric_id": "ValueDrift(column=V3)",
+            "value": 1.0800980916028484
+        },
+        {
+            "id": "0f93816c093b1798fcbd202ca09ecbd9",
+            "metric_id": "ValueDrift(column=V4)",
+            "value": 0.29987293377995383
+        },
+        {
+            "id": "16271e9210c26e64ce4cabe6e28504db",
+            "metric_id": "ValueDrift(column=V5)",
+            "value": 0.4374135859592509
+        },
+        {
+            "id": "d35d3d0950c6145a7f2f8804282b64da",
+            "metric_id": "ValueDrift(column=V6)",
+            "value": 0.13680011809464937
+        },
+        {
+            "id": "33c6149f8bb84f4eff68368860a3e852",
+            "metric_id": "ValueDrift(column=V7)",
+            "value": 0.20800568346598552
+        },
+        {
+            "id": "9a4087dba25e27184c4654d34540bfa5",
+            "metric_id": "ValueDrift(column=V8)",
+            "value": 0.11148204610444779
+        },
+        {
+            "id": "4c8cfe1d88f9cdd45960568141495a1b",
+            "metric_id": "ValueDrift(column=V9)",
+            "value": 0.16518334968098458
+        },
+        {
+            "id": "6e029a9a8dac3b193b7f86132b86ec5c",
+            "metric_id": "ValueDrift(column=V10)",
+            "value": 0.10711142364097799
+        },
+        {
+            "id": "b1d568b36080635938d935066833b1ed",
+            "metric_id": "ValueDrift(column=V11)",
+            "value": 0.3967912146481942
+        },
+        {
+            "id": "c36886a35cdd6a8ce5e665cdb94690a7",
+            "metric_id": "ValueDrift(column=V12)",
+            "value": 0.06853817184741041
+        },
+        {
+            "id": "c5c8bd543fe503c4fa5c7329ce529cb4",
+            "metric_id": "ValueDrift(column=V13)",
+            "value": 0.03846763095014023
+        },
+        {
+            "id": "aec04b7ca281d4b7ff0fcc4f541ae379",
+            "metric_id": "ValueDrift(column=V14)",
+            "value": 0.16286341462769557
+        },
+        {
+            "id": "31a1da8e8ddbef553e231bc1e4a0010f",
+            "metric_id": "ValueDrift(column=V15)",
+            "value": 0.494281558320093
+        },
+        {
+            "id": "0cd5037722be92683db841b92939c311",
+            "metric_id": "ValueDrift(column=V16)",
+            "value": 0.03788865255574351
+        },
+        {
+            "id": "27e62886d421d692de429a35ab2faffe",
+            "metric_id": "ValueDrift(column=V17)",
+            "value": 0.1172565951621445
+        },
+        {
+            "id": "c27e156f473de62fc8d3fce664cbb246",
+            "metric_id": "ValueDrift(column=V18)",
+            "value": 0.2012123186238391
+        },
+        {
+            "id": "1cf1c4513107ab2ac208c9eb1e2f9c31",
+            "metric_id": "ValueDrift(column=V19)",
+            "value": 0.07734780009165133
+        },
+        {
+            "id": "4ce3d5ffb38d628007597c221f06b814",
+            "metric_id": "ValueDrift(column=V20)",
+            "value": 0.11971944840420162
+        },
+        {
+            "id": "58cf4287da909513d43ee808b431a237",
+            "metric_id": "ValueDrift(column=V21)",
+            "value": 0.11792565946752764
+        },
+        {
+            "id": "87112524254d3d537620c6b7b9e94b97",
+            "metric_id": "ValueDrift(column=V22)",
+            "value": 0.3727799118741749
+        },
+        {
+            "id": "5418643503bc614596e46edd6d83cdd7",
+            "metric_id": "ValueDrift(column=V23)",
+            "value": 0.14152514313646214
+        },
+        {
+            "id": "43d227b211d7b6c888eb2f9cf965739a",
+            "metric_id": "ValueDrift(column=V24)",
+            "value": 0.1179253091427534
+        },
+        {
+            "id": "6845c93127c93d7b4d114bcb2c77d4b9",
+            "metric_id": "ValueDrift(column=V25)",
+            "value": 0.6407713657930513
+        },
+        {
+            "id": "8df8b582337f05afbdf42257a8169d57",
+            "metric_id": "ValueDrift(column=V26)",
+            "value": 0.17459000385869056
+        },
+        {
+            "id": "645df248cabe1f84a14abe60e795c731",
+            "metric_id": "ValueDrift(column=V27)",
+            "value": 0.057857430569197676
+        },
+        {
+            "id": "dddc18fce090e91ab2976c4f7446cc61",
+            "metric_id": "ValueDrift(column=V28)",
+            "value": 0.14932459326706987
+        },
+        {
+            "id": "50cd026f8e0232b0572581bf5b0b22c1",
+            "metric_id": "ValueDrift(column=Amount)",
+            "value": 0.022369880722752207
+        },
+        {
+            "id": "ddf2c86539bb941ef0117647b92906f6",
+            "metric_id": "ValueDrift(column=Class)",
+            "value": 0.0027380558902857467
+        },
+        {
+            "id": "00404ffe284d7862baa4095093452630",
+            "metric_id": "RowCount()",
+            "value": 142404.0
+        },
+        {
+            "id": "91e498263b6502661774b15eb39ea154",
+            "metric_id": "ColumnCount()",
+            "value": 31.0
+        },
+        {
+            "id": "31b8c78bad2b7108842265cd082d5abf",
+            "metric_id": "ColumnCount(column_type=ColumnType.Numerical)",
+            "value": 30.0
+        },
+        {
+            "id": "bb154bb9a843cad0d72fa3dc4983394d",
+            "metric_id": "ColumnCount(column_type=ColumnType.Categorical)",
+            "value": 1.0
+        },
+        {
+            "id": "012cbfb269361272d4773e1a68559396",
+            "metric_id": "ColumnCount(column_type=ColumnType.Datetime)",
+            "value": 0.0
+        },
+        {
+            "id": "3f5e595e26bc8e120aadf51967bb0355",
+            "metric_id": "ColumnCount(column_type=ColumnType.Text)",
+            "value": 0.0
+        },
+        {
+            "id": "ff1caea5e148b287bd5348d4bb40eccf",
+            "metric_id": "DuplicatedRowCount()",
+            "value": 540.0
+        },
+        {
+            "id": "02fbcbd017b30a0b075d9d5a72ce2a32",
+            "metric_id": "DuplicatedColumnsCount()",
+            "value": 0.0
+        },
+        {
+            "id": "4c2efb888b5c5f8afb50895b4b4abcec",
+            "metric_id": "AlmostDuplicatedColumnsCount()",
+            "value": 0.0
+        },
+        {
+            "id": "9e9fa5ec57528fadbf97a35ad5b66838",
+            "metric_id": "AlmostConstantColumnsCount()",
+            "value": 1.0
+        },
+        {
+            "id": "c86e32eba7f3826051b804c0df7a97fe",
+            "metric_id": "EmptyRowsCount()",
+            "value": 0.0
+        },
+        {
+            "id": "ce527bc2e35349e7f7a2e047a57f85ca",
+            "metric_id": "EmptyColumnsCount()",
+            "value": 0.0
+        },
+        {
+            "id": "5f958296980b95bddb41264800ab7a93",
+            "metric_id": "ConstantColumnsCount()",
+            "value": 0.0
+        },
+        {
+            "id": "89b8d715e93a15e3acbc483410aff2f4",
+            "metric_id": "DatasetMissingValueCount()",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "bf75e22eb766097fde63ec21c489b941",
+            "metric_id": "MissingValueCount(column=Class)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "ee93726ac383c00b8238220c9acc9870",
+            "metric_id": "UniqueValueCount(column=Class)",
+            "value": {
+                "counts": {
+                    "0": 142181.0,
+                    "1": 223.0
+                },
+                "shares": {
+                    "0": 0.998434032751889,
+                    "1": 0.0015659672481110082
+                }
+            }
+        },
+        {
+            "id": "6384b31011207dffcb3f2ca23a440178",
+            "metric_id": "MissingValueCount(column=Time)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "bdb030954dbc3947ef043fbededc3f75",
+            "metric_id": "MinValue(column=Time)",
+            "value": 84692.0
+        },
+        {
+            "id": "1a295a37d4184b00afd27ddc3a8fb548",
+            "metric_id": "MaxValue(column=Time)",
+            "value": 172792.0
+        },
+        {
+            "id": "ef36ad91868f1b24d65b00dab8298fd8",
+            "metric_id": "MeanValue(column=Time)",
+            "value": 137224.49890452516
+        },
+        {
+            "id": "ce07f5eb9bb93842bd8d148319750241",
+            "metric_id": "StdValue(column=Time)",
+            "value": 21621.441038866586
+        },
+        {
+            "id": "fe77eacae4ee359e3d48252cdd1e3230",
+            "metric_id": "QuantileValue(column=Time,quantile=0.25)",
+            "value": 123434.0
+        },
+        {
+            "id": "4a1a994076b9e38415f3945663e10465",
+            "metric_id": "QuantileValue(column=Time,quantile=0.5)",
+            "value": 139320.5
+        },
+        {
+            "id": "47f3f3ff855c2cb4a61c3c452a883276",
+            "metric_id": "QuantileValue(column=Time,quantile=0.75)",
+            "value": 154295.25
+        },
+        {
+            "id": "f99a6e433d602663429944fce12dc73b",
+            "metric_id": "MissingValueCount(column=V1)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "025678597d013f10cb9e8f67e3c7c5e3",
+            "metric_id": "MinValue(column=V1)",
+            "value": -46.8550472007818
+        },
+        {
+            "id": "e6996deea3a648046ea7f85c0d4c91b5",
+            "metric_id": "MaxValue(column=V1)",
+            "value": 2.45492999121121
+        },
+        {
+            "id": "6915e3796dbc8c11855f13dbbcaef8fc",
+            "metric_id": "MeanValue(column=V1)",
+            "value": 0.24936732180561827
+        },
+        {
+            "id": "bcd209fefa116081fae4f9513c44f99b",
+            "metric_id": "StdValue(column=V1)",
+            "value": 2.063447370838352
+        },
+        {
+            "id": "e22cb5c2192c29b8d4886370070408ad",
+            "metric_id": "QuantileValue(column=V1,quantile=0.25)",
+            "value": -0.7987386255570602
+        },
+        {
+            "id": "21b00ae0d0ce579b617e9ffc4dc2bc96",
+            "metric_id": "QuantileValue(column=V1,quantile=0.5)",
+            "value": 0.10904889022092251
+        },
+        {
+            "id": "40d66ac61da6b7d6ad9a9eec75038407",
+            "metric_id": "QuantileValue(column=V1,quantile=0.75)",
+            "value": 1.97481711750758
+        },
+        {
+            "id": "c30870549aef886a0b5f24df95973359",
+            "metric_id": "MissingValueCount(column=V2)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "8f584859b9d58fb10e50cd0ecc262a82",
+            "metric_id": "MinValue(column=V2)",
+            "value": -60.4646176556493
+        },
+        {
+            "id": "eb6cd225c1a481ab65ed6bfd10a7f067",
+            "metric_id": "MaxValue(column=V2)",
+            "value": 22.0577289904909
+        },
+        {
+            "id": "fadc3c442dc34afda478d053b658b151",
+            "metric_id": "MeanValue(column=V2)",
+            "value": -0.02078595157673023
+        },
+        {
+            "id": "03ba2d121706c809e4cf8f6b2d56f51d",
+            "metric_id": "StdValue(column=V2)",
+            "value": 1.6910647084112667
+        },
+        {
+            "id": "d0d86872b1ae136f8f5eadb1892e2a36",
+            "metric_id": "QuantileValue(column=V2,quantile=0.25)",
+            "value": -0.6395378002082838
+        },
+        {
+            "id": "69427e62d0f995e9d4ee075c09981b23",
+            "metric_id": "QuantileValue(column=V2,quantile=0.5)",
+            "value": 0.021672206667570748
+        },
+        {
+            "id": "483fd5b8a74f91c9b70ffac763a2a85c",
+            "metric_id": "QuantileValue(column=V2,quantile=0.75)",
+            "value": 0.8218890176275675
+        },
+        {
+            "id": "b3d9600bbeddc22b5dcb55b418f220d0",
+            "metric_id": "MissingValueCount(column=V3)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "15eb4f13696d5d9c6a2cebb03a43d71a",
+            "metric_id": "MinValue(column=V3)",
+            "value": -48.3255893623954
+        },
+        {
+            "id": "b7b370ddcfca4134346d1a6f3d3e03d5",
+            "metric_id": "MaxValue(column=V3)",
+            "value": 4.18781059904763
+        },
+        {
+            "id": "fcacc643c0133d73dafeb7bdfb5e955c",
+            "metric_id": "MeanValue(column=V3)",
+            "value": -0.6737538609910005
+        },
+        {
+            "id": "a00d29acc9e3f650c8e320d2bf61f690",
+            "metric_id": "StdValue(column=V3)",
+            "value": 1.4447736365741881
+        },
+        {
+            "id": "7393e136dab6fae8462cb4dd1031112b",
+            "metric_id": "QuantileValue(column=V3,quantile=0.25)",
+            "value": -1.545958448129615
+        },
+        {
+            "id": "53469178cb88c65956333c70cf25c65b",
+            "metric_id": "QuantileValue(column=V3,quantile=0.5)",
+            "value": -0.6760065633792955
+        },
+        {
+            "id": "b14b6825a38703e5ed7a8db9f49bbd08",
+            "metric_id": "QuantileValue(column=V3,quantile=0.75)",
+            "value": 0.19546728453118273
+        },
+        {
+            "id": "cb174707d0a8dd785346169308cc9832",
+            "metric_id": "MissingValueCount(column=V4)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "c8662121632f484e799bcef9d2177e06",
+            "metric_id": "MinValue(column=V4)",
+            "value": -5.68317119816995
+        },
+        {
+            "id": "0f92a441bcc679c09fc4b5bc53622aa0",
+            "metric_id": "MaxValue(column=V4)",
+            "value": 16.8753440335975
+        },
+        {
+            "id": "b419730f3af8d00d0ac124232ec07a52",
+            "metric_id": "MeanValue(column=V4)",
+            "value": -0.13716631049488615
+        },
+        {
+            "id": "d67d80384295a104b517cfc77d4ea761",
+            "metric_id": "StdValue(column=V4)",
+            "value": 1.4910147736043424
+        },
+        {
+            "id": "f81229d44f58f804b35415eef0962093",
+            "metric_id": "QuantileValue(column=V4,quantile=0.25)",
+            "value": -0.9515379880689323
+        },
+        {
+            "id": "866f9bd1d89fa60694dffb069e93cf8c",
+            "metric_id": "QuantileValue(column=V4,quantile=0.5)",
+            "value": -0.286961621171812
+        },
+        {
+            "id": "ff7b19e2029443b87422e1cecb9be105",
+            "metric_id": "QuantileValue(column=V4,quantile=0.75)",
+            "value": 0.4570051279850415
+        },
+        {
+            "id": "fbdf477e199419c225c5f35e0c794eea",
+            "metric_id": "MissingValueCount(column=V5)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "f4707cd2b2dd98b488ce4bfe60e149e2",
+            "metric_id": "MinValue(column=V5)",
+            "value": -113.743306711146
+        },
+        {
+            "id": "cdd4d480c717b51600c4bcaa01c362bc",
+            "metric_id": "MaxValue(column=V5)",
+            "value": 32.9114617007293
+        },
+        {
+            "id": "ff54b4756f7e97d86fe493c603d95c11",
+            "metric_id": "MeanValue(column=V5)",
+            "value": 0.2829313897235191
+        },
+        {
+            "id": "ed0a7f31f402496bb9a9a578377df798",
+            "metric_id": "StdValue(column=V5)",
+            "value": 1.3953456669047655
+        },
+        {
+            "id": "2f38b8dd0165c8a58b80656a9e96d80e",
+            "metric_id": "QuantileValue(column=V5,quantile=0.25)",
+            "value": -0.4153722957884277
+        },
+        {
+            "id": "57cb2b3445d9638e3ac4c3fdfbdb51f3",
+            "metric_id": "QuantileValue(column=V5,quantile=0.5)",
+            "value": 0.263262899556489
+        },
+        {
+            "id": "f99f70afc8de6655c5d86656aa6b58d7",
+            "metric_id": "QuantileValue(column=V5,quantile=0.75)",
+            "value": 0.8966475750656877
+        },
+        {
+            "id": "57c3c17debf2028a0df0b7c793dab004",
+            "metric_id": "MissingValueCount(column=V6)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "0d15fb9b8d172cd55d1356b35b2a57de",
+            "metric_id": "MinValue(column=V6)",
+            "value": -21.9293122885031
+        },
+        {
+            "id": "e02285dcfd0b3a45efe74d793c670bff",
+            "metric_id": "MaxValue(column=V6)",
+            "value": 73.3016255459646
+        },
+        {
+            "id": "79b63627ecfbe3de324e85179d69bbf7",
+            "metric_id": "MeanValue(column=V6)",
+            "value": -0.07824205722668498
+        },
+        {
+            "id": "cec86583b3b19ca0d5b226278d3f68ae",
+            "metric_id": "StdValue(column=V6)",
+            "value": 1.3757696069557241
+        },
+        {
+            "id": "0fb78150c4394956dbcba438027eab25",
+            "metric_id": "QuantileValue(column=V6,quantile=0.25)",
+            "value": -0.868287681279606
+        },
+        {
+            "id": "895a2bf6a20f32818a80d35cedd4f8ad",
+            "metric_id": "QuantileValue(column=V6,quantile=0.5)",
+            "value": -0.3806122668007675
+        },
+        {
+            "id": "60c10a59c5aca03de981e18b604be49b",
+            "metric_id": "QuantileValue(column=V6,quantile=0.75)",
+            "value": 0.31711167790283823
+        },
+        {
+            "id": "2b78ae6500f7bf6f5e551baaa57e1a85",
+            "metric_id": "MissingValueCount(column=V7)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "71945171424ba17f931b3e5c16fc2b8b",
+            "metric_id": "MinValue(column=V7)",
+            "value": -43.5572415712451
+        },
+        {
+            "id": "5cf94b1cdb704814693791370694104f",
+            "metric_id": "MaxValue(column=V7)",
+            "value": 120.589493945238
+        },
+        {
+            "id": "c1a28713821732ff04248934aa00d3c8",
+            "metric_id": "MeanValue(column=V7)",
+            "value": 0.11822015591239718
+        },
+        {
+            "id": "78604b846a91f76b1acb1dafcb085e54",
+            "metric_id": "StdValue(column=V7)",
+            "value": 1.2939856990567202
+        },
+        {
+            "id": "cfa0d637090a5012e444368ed816e28d",
+            "metric_id": "QuantileValue(column=V7,quantile=0.25)",
+            "value": -0.484315255479855
+        },
+        {
+            "id": "7945f4aa1fe92d4289d1fa7ea1f37821",
+            "metric_id": "QuantileValue(column=V7,quantile=0.5)",
+            "value": 0.152002545314135
+        },
+        {
+            "id": "33e7cb78420ce41f283c057a0c0d5967",
+            "metric_id": "QuantileValue(column=V7,quantile=0.75)",
+            "value": 0.7453420965690702
+        },
+        {
+            "id": "0aff1c60d8ec7408d14750e3ff456a64",
+            "metric_id": "MissingValueCount(column=V8)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "f3f827236aa97d4ff20866f78035d7d3",
+            "metric_id": "MinValue(column=V8)",
+            "value": -41.0442609210741
+        },
+        {
+            "id": "7c0fd4cf7429eff434b8ae6c79388985",
+            "metric_id": "MaxValue(column=V8)",
+            "value": 12.7661123549729
+        },
+        {
+            "id": "7f2cf21a2f87ec263bc7dc641fd05e9d",
+            "metric_id": "MeanValue(column=V8)",
+            "value": -0.06496821269162786
+        },
+        {
+            "id": "cb1a2f81fce264c4a27c6b05768e5918",
+            "metric_id": "StdValue(column=V8)",
+            "value": 1.1501151429693584
+        },
+        {
+            "id": "a6aa9259f7d579a1aab72055989f16e6",
+            "metric_id": "QuantileValue(column=V8,quantile=0.25)",
+            "value": -0.28221801713846173
+        },
+        {
+            "id": "2358fc54aefc4fa74cb511720c6d2123",
+            "metric_id": "QuantileValue(column=V8,quantile=0.5)",
+            "value": -0.04619941284529825
+        },
+        {
+            "id": "df01bf5b71702f93e40b3af1145a1340",
+            "metric_id": "QuantileValue(column=V8,quantile=0.75)",
+            "value": 0.2685174520838167
+        },
+        {
+            "id": "6e0369f87e1cccfafb8fb5a5d4e15d8f",
+            "metric_id": "MissingValueCount(column=V9)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "51eb93396cb56fedd3e6352509740817",
+            "metric_id": "MinValue(column=V9)",
+            "value": -13.4340663182301
+        },
+        {
+            "id": "11ea5d90e2e7a59c4e8b63c3efa3112c",
+            "metric_id": "MaxValue(column=V9)",
+            "value": 8.95566857367873
+        },
+        {
+            "id": "8f6897e20f0f79dcb971cfc59b537518",
+            "metric_id": "MeanValue(column=V9)",
+            "value": 0.08915090360920727
+        },
+        {
+            "id": "44efbe188e39b901bda6ad6e15544eb6",
+            "metric_id": "StdValue(column=V9)",
+            "value": 1.0997171775070982
+        },
+        {
+            "id": "f25ad618582a185bec19bdfd504cea1a",
+            "metric_id": "QuantileValue(column=V9,quantile=0.25)",
+            "value": -0.5456409672063436
+        },
+        {
+            "id": "459ad3ac46e52a6a25a84ac1f61a5a52",
+            "metric_id": "QuantileValue(column=V9,quantile=0.5)",
+            "value": 0.06199843030582665
+        },
+        {
+            "id": "76427e09565a8486474a65384db8d261",
+            "metric_id": "QuantileValue(column=V9,quantile=0.75)",
+            "value": 0.6879692488600173
+        },
+        {
+            "id": "9727b8ce5cc16d37a7b6c1b787967d41",
+            "metric_id": "MissingValueCount(column=V10)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "70f08d244f94016404509b8952709d59",
+            "metric_id": "MinValue(column=V10)",
+            "value": -24.5882624372475
+        },
+        {
+            "id": "be5101dc41091f388dd6daf1349c19b7",
+            "metric_id": "MaxValue(column=V10)",
+            "value": 15.3317415557881
+        },
+        {
+            "id": "03e24b5211ae9821ca3c3e236117c6df",
+            "metric_id": "MeanValue(column=V10)",
+            "value": 0.02300442393411909
+        },
+        {
+            "id": "0a684fcf2227f8f3b409c033cff2309f",
+            "metric_id": "StdValue(column=V10)",
+            "value": 1.1239046982839749
+        },
+        {
+            "id": "c26ee7e1c7127648a2177106b8a931df",
+            "metric_id": "QuantileValue(column=V10,quantile=0.25)",
+            "value": -0.5898651516429453
+        },
+        {
+            "id": "9f04645fc9c42db28d8a7a8c190f21a8",
+            "metric_id": "QuantileValue(column=V10,quantile=0.5)",
+            "value": -0.07737572170934065
+        },
+        {
+            "id": "494659604723b1900b6ea80a3c9a5868",
+            "metric_id": "QuantileValue(column=V10,quantile=0.75)",
+            "value": 0.4951978106348812
+        },
+        {
+            "id": "95d5a6090421775d14e0da7b793ff4eb",
+            "metric_id": "MissingValueCount(column=V11)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "97b103342ad49f1a35d82d7a55088ffa",
+            "metric_id": "MinValue(column=V11)",
+            "value": -4.79747346479757
+        },
+        {
+            "id": "5f6de752cd8f491c1278b7fd196c5067",
+            "metric_id": "MaxValue(column=V11)",
+            "value": 9.41303953977606
+        },
+        {
+            "id": "e02aa171c4581c8b7a28bc0659da8663",
+            "metric_id": "MeanValue(column=V11)",
+            "value": -0.2085390761021374
+        },
+        {
+            "id": "2675586c3d03898a630136808916c2b0",
+            "metric_id": "StdValue(column=V11)",
+            "value": 0.9473939508381631
+        },
+        {
+            "id": "e0edd6254fa6fed6d87cb2f77f54dffb",
+            "metric_id": "QuantileValue(column=V11,quantile=0.25)",
+            "value": -0.9452150872558582
+        },
+        {
+            "id": "844f007710b6e35c2c4c9a39e11ad992",
+            "metric_id": "QuantileValue(column=V11,quantile=0.5)",
+            "value": -0.1953188911779415
+        },
+        {
+            "id": "c004e52fff962dff8fc95b33d2d0234c",
+            "metric_id": "QuantileValue(column=V11,quantile=0.75)",
+            "value": 0.509757660124494
+        },
+        {
+            "id": "05757966d045f41c346f48ebb4cd6498",
+            "metric_id": "MissingValueCount(column=V12)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "547b3cdb81dce6dcaa29aa940060d957",
+            "metric_id": "MinValue(column=V12)",
+            "value": -18.6837146333443
+        },
+        {
+            "id": "38687ffb123b7a381cb77b8134e00ae3",
+            "metric_id": "MaxValue(column=V12)",
+            "value": 4.31807083997779
+        },
+        {
+            "id": "d7325da99d7f6a961ad4dd24883e2da6",
+            "metric_id": "MeanValue(column=V12)",
+            "value": -0.030410011270376174
+        },
+        {
+            "id": "83ec0118b15157910f309e6c14e61100",
+            "metric_id": "StdValue(column=V12)",
+            "value": 0.9780706240199418
+        },
+        {
+            "id": "ad88588c1a1ca9814b73602cb00593ad",
+            "metric_id": "QuantileValue(column=V12,quantile=0.25)",
+            "value": -0.43688644517201225
+        },
+        {
+            "id": "b166f500d51e88217854e2e688b4f4ee",
+            "metric_id": "QuantileValue(column=V12,quantile=0.5)",
+            "value": 0.11279195235559
+        },
+        {
+            "id": "0e8b99f5f77d911e40114c150da68604",
+            "metric_id": "QuantileValue(column=V12,quantile=0.75)",
+            "value": 0.583168175161814
+        },
+        {
+            "id": "cf52fa90931d375060292182c66c83c6",
+            "metric_id": "MissingValueCount(column=V13)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "29689e828503604cdd248116f8572559",
+            "metric_id": "MinValue(column=V13)",
+            "value": -3.96175753575025
+        },
+        {
+            "id": "6d270a6ccfdb85114d8ef6e6e16474e9",
+            "metric_id": "MaxValue(column=V13)",
+            "value": 7.12688295859376
+        },
+        {
+            "id": "b56cb086eba2b8b41a137904226cefae",
+            "metric_id": "MeanValue(column=V13)",
+            "value": 0.018850286366129884
+        },
+        {
+            "id": "fa60a91cb7cebb529ddc39a6abee276f",
+            "metric_id": "StdValue(column=V13)",
+            "value": 0.9922619382694408
+        },
+        {
+            "id": "b018c9af4cd7c3e7d63d45e979c7306e",
+            "metric_id": "QuantileValue(column=V13,quantile=0.25)",
+            "value": -0.6216831613859395
+        },
+        {
+            "id": "ecf78caaa599b75b2112244a2533422d",
+            "metric_id": "QuantileValue(column=V13,quantile=0.5)",
+            "value": -0.00512549944055195
+        },
+        {
+            "id": "434bf9f5c5a0f4560baeb2fc3d6f09a3",
+            "metric_id": "QuantileValue(column=V13,quantile=0.75)",
+            "value": 0.683213469285494
+        },
+        {
+            "id": "0d0b4d082f7208c254f9e7f9e1037542",
+            "metric_id": "MissingValueCount(column=V14)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "d0503ae276241079c25677af0b810ae8",
+            "metric_id": "MinValue(column=V14)",
+            "value": -15.6231873302985
+        },
+        {
+            "id": "03ff53277db2fd62736d6097c7ab0efa",
+            "metric_id": "MaxValue(column=V14)",
+            "value": 6.89406758192229
+        },
+        {
+            "id": "c7e7cdb4c4b458ecda8529d50030bdec",
+            "metric_id": "MeanValue(column=V14)",
+            "value": -0.028635703314320297
+        },
+        {
+            "id": "6f25e4b0ce7d825f3f9d26a75c8398b4",
+            "metric_id": "StdValue(column=V14)",
+            "value": 0.996673922441838
+        },
+        {
+            "id": "12ef8351b1f8718faba02caa9910b15f",
+            "metric_id": "QuantileValue(column=V14,quantile=0.25)",
+            "value": -0.5407231345151333
+        },
+        {
+            "id": "f602414def7e440e3ff6c125a7c7429f",
+            "metric_id": "QuantileValue(column=V14,quantile=0.5)",
+            "value": 0.0400120297813776
+        },
+        {
+            "id": "c22dc516cc5c9b5c8a7b5888d1401ed1",
+            "metric_id": "QuantileValue(column=V14,quantile=0.75)",
+            "value": 0.5397688129413748
+        },
+        {
+            "id": "3602326246cb4f71190298e52c914f22",
+            "metric_id": "MissingValueCount(column=V15)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "f6a767102a73eece4b53abfd283bb0f2",
+            "metric_id": "MinValue(column=V15)",
+            "value": -4.49894467676621
+        },
+        {
+            "id": "1a125df7b64cf971087ce4beadc778b0",
+            "metric_id": "MaxValue(column=V15)",
+            "value": 8.87774159774277
+        },
+        {
+            "id": "b42866b83ed19d358e65e3f765cfccf1",
+            "metric_id": "MeanValue(column=V15)",
+            "value": -0.22884995315508957
+        },
+        {
+            "id": "a30bb65fb8d1728a3e09c802b59e056d",
+            "metric_id": "StdValue(column=V15)",
+            "value": 0.8452065505382308
+        },
+        {
+            "id": "3ceff60f5f0e4f84b9804bc37f84c082",
+            "metric_id": "QuantileValue(column=V15,quantile=0.25)",
+            "value": -0.7625706901067808
+        },
+        {
+            "id": "fbff0b46af37768cc4d5ad0b41be3192",
+            "metric_id": "QuantileValue(column=V15,quantile=0.5)",
+            "value": -0.21985430963491398
+        },
+        {
+            "id": "1b2c4e4f3baed0b5246b71357e4efa5d",
+            "metric_id": "QuantileValue(column=V15,quantile=0.75)",
+            "value": 0.3178689922715042
+        },
+        {
+            "id": "28c73e722a2b55463b1816651a2a333f",
+            "metric_id": "MissingValueCount(column=V16)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "01b8f7b7da3c4feafd69225dfc1ae54d",
+            "metric_id": "MinValue(column=V16)",
+            "value": -14.1298545174931
+        },
+        {
+            "id": "9598d35c117477d9aa8c2dc828855a12",
+            "metric_id": "MaxValue(column=V16)",
+            "value": 17.3151115176278
+        },
+        {
+            "id": "c0f88f30f297d5e269c3ffca1cc62b46",
+            "metric_id": "MeanValue(column=V16)",
+            "value": 0.008477462874787447
+        },
+        {
+            "id": "29e7ad70eaa64f9ad2602786fa0a2289",
+            "metric_id": "StdValue(column=V16)",
+            "value": 0.8751740110972096
+        },
+        {
+            "id": "9c761b90c43340993990ee79e8c55844",
+            "metric_id": "QuantileValue(column=V16,quantile=0.25)",
+            "value": -0.46192951918358127
+        },
+        {
+            "id": "804c52a48d7c0da7a1566a02d6a42a62",
+            "metric_id": "QuantileValue(column=V16,quantile=0.5)",
+            "value": 0.06298430321223106
+        },
+        {
+            "id": "f4ab092f7602be7621b0a2df7cf8f077",
+            "metric_id": "QuantileValue(column=V16,quantile=0.75)",
+            "value": 0.5142588283684645
+        },
+        {
+            "id": "da21371edbf718df6d90670230079e14",
+            "metric_id": "MissingValueCount(column=V17)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "922ab2f890820f3e9cf7ed137b9e1685",
+            "metric_id": "MinValue(column=V17)",
+            "value": -22.6679054064789
+        },
+        {
+            "id": "40b855fa330f95d471f15ed0a24cda18",
+            "metric_id": "MaxValue(column=V17)",
+            "value": 7.29310779512161
+        },
+        {
+            "id": "54407b1a3b5af86cdc885afcc662f556",
+            "metric_id": "MeanValue(column=V17)",
+            "value": -0.042221328429126494
+        },
+        {
+            "id": "2530ab2d69521148752f8c741ff38ddf",
+            "metric_id": "StdValue(column=V17)",
+            "value": 0.8104192250933746
+        },
+        {
+            "id": "67c0242559eda0e80df872bfc6685c22",
+            "metric_id": "QuantileValue(column=V17,quantile=0.25)",
+            "value": -0.551973782688105
+        },
+        {
+            "id": "90b1a866de893fab48439e2c92404a33",
+            "metric_id": "QuantileValue(column=V17,quantile=0.5)",
+            "value": -0.1230422041515455
+        },
+        {
+            "id": "3d86519aed39a8c2dca442236c0a8ca2",
+            "metric_id": "QuantileValue(column=V17,quantile=0.75)",
+            "value": 0.3729793388150162
+        },
+        {
+            "id": "c01cd81f8afec59a6f9b4265ef9bf00b",
+            "metric_id": "MissingValueCount(column=V18)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "02b85cb2755bd0745a9454fd33310af9",
+            "metric_id": "MinValue(column=V18)",
+            "value": -9.26460873295655
+        },
+        {
+            "id": "4497b39a85f6f0f4dbf02f4ddf1f4b8f",
+            "metric_id": "MaxValue(column=V18)",
+            "value": 4.71239756635225
+        },
+        {
+            "id": "4484f8a5e0ef297b387071cc346f6e3b",
+            "metric_id": "MeanValue(column=V18)",
+            "value": 0.08376523833484373
+        },
+        {
+            "id": "5fff3627f3a0be6fc1050a68f3b87b45",
+            "metric_id": "StdValue(column=V18)",
+            "value": 0.8358016893200707
+        },
+        {
+            "id": "689595dba87913dd966137e869a4a7f8",
+            "metric_id": "QuantileValue(column=V18,quantile=0.25)",
+            "value": -0.43687413895557076
+        },
+        {
+            "id": "ad9f2bd83ed937dd0473ae19b208c82e",
+            "metric_id": "QuantileValue(column=V18,quantile=0.5)",
+            "value": 0.08871357293352994
+        },
+        {
+            "id": "4e6a9c0226626f6f8b20caf1030d9be0",
+            "metric_id": "QuantileValue(column=V18,quantile=0.75)",
+            "value": 0.6076706346719113
+        },
+        {
+            "id": "618233bb273d2d66d516043891801f4a",
+            "metric_id": "MissingValueCount(column=V19)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "282ed968741c11f18a9ec1188cd5a293",
+            "metric_id": "MinValue(column=V19)",
+            "value": -6.93829731768481
+        },
+        {
+            "id": "23f89b7f10f90d7dc691f582f9c30c55",
+            "metric_id": "MaxValue(column=V19)",
+            "value": 5.59197142733558
+        },
+        {
+            "id": "bb96b675888a38e31925625395240639",
+            "metric_id": "MeanValue(column=V19)",
+            "value": 0.01700496987182943
+        },
+        {
+            "id": "33bd00558e051842dd2f047ffc1629c9",
+            "metric_id": "StdValue(column=V19)",
+            "value": 0.8191129768528942
+        },
+        {
+            "id": "179575838f27f49c2aa023fe75eff939",
+            "metric_id": "QuantileValue(column=V19,quantile=0.25)",
+            "value": -0.40510796794533527
+        },
+        {
+            "id": "6c81ab999043a3e8c4a272d6bc14d50a",
+            "metric_id": "QuantileValue(column=V19,quantile=0.5)",
+            "value": 0.01782026861767615
+        },
+        {
+            "id": "3f9bbaec0920744056f2043beaf987b0",
+            "metric_id": "QuantileValue(column=V19,quantile=0.75)",
+            "value": 0.43744334416937025
+        },
+        {
+            "id": "868f2b3a57e64c950bfcbb6814cab626",
+            "metric_id": "MissingValueCount(column=V20)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "8bff361d5e9352f849482da1f021048b",
+            "metric_id": "MinValue(column=V20)",
+            "value": -54.497720494566
+        },
+        {
+            "id": "67e1e12aecd346c451465dfd91110339",
+            "metric_id": "MaxValue(column=V20)",
+            "value": 38.1172091261285
+        },
+        {
+            "id": "5bad9983a85cdeeea33b1c1f0dafc622",
+            "metric_id": "MeanValue(column=V20)",
+            "value": -0.042243823941544974
+        },
+        {
+            "id": "1d8f71207035f3e4202bc76e000f4512",
+            "metric_id": "StdValue(column=V20)",
+            "value": 0.8170137968776904
+        },
+        {
+            "id": "98996f329a3e1f56b95ee4de3e1c4be8",
+            "metric_id": "QuantileValue(column=V20,quantile=0.25)",
+            "value": -0.24496300708907
+        },
+        {
+            "id": "0bc9c1b9df43adefbaf189f28add7bdf",
+            "metric_id": "QuantileValue(column=V20,quantile=0.5)",
+            "value": -0.103437419643181
+        },
+        {
+            "id": "4b1b0843f2b1de9e386f3c5119df5d58",
+            "metric_id": "QuantileValue(column=V20,quantile=0.75)",
+            "value": 0.09444699929665028
+        },
+        {
+            "id": "9d345c316502e918ea2c40ad253424d8",
+            "metric_id": "MissingValueCount(column=V21)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "e4f7be1c81f511d21de9cf04351bcb56",
+            "metric_id": "MinValue(column=V21)",
+            "value": -22.7976039055519
+        },
+        {
+            "id": "0816dbe25e31b69c47a69877062c15c9",
+            "metric_id": "MaxValue(column=V21)",
+            "value": 21.8997237719771
+        },
+        {
+            "id": "71ebc1fe3fa8117f5c8c67d305756e5b",
+            "metric_id": "MeanValue(column=V21)",
+            "value": 0.03974838032367666
+        },
+        {
+            "id": "e83578770d37838f05100c397aab56fa",
+            "metric_id": "StdValue(column=V21)",
+            "value": 0.7455107015855086
+        },
+        {
+            "id": "573d8e93beabe8c81cc21e6cc6cedceb",
+            "metric_id": "QuantileValue(column=V21,quantile=0.25)",
+            "value": -0.23217122505979199
+        },
+        {
+            "id": "44c4810fca0f100954ba0423d08b2d31",
+            "metric_id": "QuantileValue(column=V21,quantile=0.5)",
+            "value": 0.0245514330320803
+        },
+        {
+            "id": "595b85a77b2baff8c667fd3f335aa9b2",
+            "metric_id": "QuantileValue(column=V21,quantile=0.75)",
+            "value": 0.246051913953824
+        },
+        {
+            "id": "cff8fe83eabf22a2792cebd224aeaebf",
+            "metric_id": "MissingValueCount(column=V22)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "600341373eb56c978f86d75dd45e4fdb",
+            "metric_id": "MinValue(column=V22)",
+            "value": -9.49942296430251
+        },
+        {
+            "id": "2e02c32eab116243e57e79aa0ee9d39d",
+            "metric_id": "MaxValue(column=V22)",
+            "value": 8.36198519168435
+        },
+        {
+            "id": "8f4642b01eb61dbc9c9722ed2b9ad5f2",
+            "metric_id": "MeanValue(column=V22)",
+            "value": 0.11793800751716847
+        },
+        {
+            "id": "98571e6f7c989143a1bd7592a3dc5e1c",
+            "metric_id": "StdValue(column=V22)",
+            "value": 0.7891373829320673
+        },
+        {
+            "id": "2351a5c01ff0a44d37302d56034acdfd",
+            "metric_id": "QuantileValue(column=V22,quantile=0.25)",
+            "value": -0.5366222334785533
+        },
+        {
+            "id": "bc640650d9c06720a1ba9320ffb917d4",
+            "metric_id": "QuantileValue(column=V22,quantile=0.5)",
+            "value": 0.1804734115965145
+        },
+        {
+            "id": "5816f83d327f0c43cca5cd2ef0c29a8d",
+            "metric_id": "QuantileValue(column=V22,quantile=0.75)",
+            "value": 0.741408329303906
+        },
+        {
+            "id": "51120bd9fef66cc610a181588c02a659",
+            "metric_id": "MissingValueCount(column=V23)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "8eeaaf67f8cad14504f4953665c83233",
+            "metric_id": "MinValue(column=V23)",
+            "value": -36.666000066027
+        },
+        {
+            "id": "e0428087c81bb65dc5d9fe277035f5cc",
+            "metric_id": "MaxValue(column=V23)",
+            "value": 22.5284116897749
+        },
+        {
+            "id": "47326a242e7ebf50f9833b7369344ce8",
+            "metric_id": "MeanValue(column=V23)",
+            "value": 0.03325895705106067
+        },
+        {
+            "id": "0c8a527bf37efeba90cd9b74f79abef8",
+            "metric_id": "StdValue(column=V23)",
+            "value": 0.6555710327945045
+        },
+        {
+            "id": "bbcb7113019c6af8e8db1bebfaa292b4",
+            "metric_id": "QuantileValue(column=V23,quantile=0.25)",
+            "value": -0.14544814160939026
+        },
+        {
+            "id": "c752ada740be2e2edca303426df5c688",
+            "metric_id": "QuantileValue(column=V23,quantile=0.5)",
+            "value": 0.03554164988054185
+        },
+        {
+            "id": "398e201aa922f7aa7bf0a3d4d989040c",
+            "metric_id": "QuantileValue(column=V23,quantile=0.75)",
+            "value": 0.22298923919344726
+        },
+        {
+            "id": "e658e52109a091a63cbe15c477a5e73e",
+            "metric_id": "MissingValueCount(column=V24)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "685b5c2120471823f5b5e711808c57b6",
+            "metric_id": "MinValue(column=V24)",
+            "value": -2.80789696214131
+        },
+        {
+            "id": "20050af06ea81e041b353cca14fc7c4f",
+            "metric_id": "MaxValue(column=V24)",
+            "value": 4.58454913689817
+        },
+        {
+            "id": "0f48c7e03d870c56fdf30037c4ab1762",
+            "metric_id": "MeanValue(column=V24)",
+            "value": -0.01126268990271583
+        },
+        {
+            "id": "6a3ff20fa9bbf55ee80765e8b8e339e0",
+            "metric_id": "StdValue(column=V24)",
+            "value": 0.6152042942904804
+        },
+        {
+            "id": "24a16becd804af6868c35a8e60afec2f",
+            "metric_id": "QuantileValue(column=V24,quantile=0.25)",
+            "value": -0.3798935667905472
+        },
+        {
+            "id": "e1fed5cf86958caffd0684ae0ab7705f",
+            "metric_id": "QuantileValue(column=V24,quantile=0.5)",
+            "value": 0.01654635082867525
+        },
+        {
+            "id": "183423c2d6082fb605672e3f9d4ff6ea",
+            "metric_id": "QuantileValue(column=V24,quantile=0.75)",
+            "value": 0.5233419995053115
+        },
+        {
+            "id": "4d51e6c1986d1962fc016c842e956745",
+            "metric_id": "MissingValueCount(column=V25)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "45042e818d6771d193bdece4c96238aa",
+            "metric_id": "MinValue(column=V25)",
+            "value": -8.69662677026752
+        },
+        {
+            "id": "77ef66e9493e50dcec6eb9d32f702a12",
+            "metric_id": "MaxValue(column=V25)",
+            "value": 7.51958867870916
+        },
+        {
+            "id": "086710265bffa9fb50cd9f367be98a30",
+            "metric_id": "MeanValue(column=V25)",
+            "value": -0.13089330718461023
+        },
+        {
+            "id": "43ceed0ce57a7e30cce9a4589b40cd1b",
+            "metric_id": "StdValue(column=V25)",
+            "value": 0.5638713710622706
+        },
+        {
+            "id": "92468878722898f693eeab830297186c",
+            "metric_id": "QuantileValue(column=V25,quantile=0.25)",
+            "value": -0.447182773496624
+        },
+        {
+            "id": "91637d86faa8c0d7193de1e671872056",
+            "metric_id": "QuantileValue(column=V25,quantile=0.5)",
+            "value": -0.18449011463909748
+        },
+        {
+            "id": "3dc684ce5d4cec580358a49ee8a076b7",
+            "metric_id": "QuantileValue(column=V25,quantile=0.75)",
+            "value": 0.23364254912333
+        },
+        {
+            "id": "b72423b354aed38b48dfd6b429cd0552",
+            "metric_id": "MissingValueCount(column=V26)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "53a7b929272dc2a694a024c2dd4a5f32",
+            "metric_id": "MinValue(column=V26)",
+            "value": -2.60455055280817
+        },
+        {
+            "id": "c0cdfe9136be06adb9f5295e431bce30",
+            "metric_id": "MaxValue(column=V26)",
+            "value": 3.41563624349633
+        },
+        {
+            "id": "c2f9fea3d5eae7fd929f592cf13b5ad3",
+            "metric_id": "MeanValue(column=V26)",
+            "value": -0.021566895852826843
+        },
+        {
+            "id": "f9a9645b4495e9697dda2cbbde55b9c4",
+            "metric_id": "StdValue(column=V26)",
+            "value": 0.4708756159142949
+        },
+        {
+            "id": "c98ecdea520a8bc9657446018a1495ab",
+            "metric_id": "QuantileValue(column=V26,quantile=0.25)",
+            "value": -0.32645301895391476
+        },
+        {
+            "id": "ecf30f945b139c9058b70bd755927995",
+            "metric_id": "QuantileValue(column=V26,quantile=0.5)",
+            "value": -0.0358308802497983
+        },
+        {
+            "id": "22f68a1edc6a1dba2b58d804c7c7800e",
+            "metric_id": "QuantileValue(column=V26,quantile=0.75)",
+            "value": 0.2168711359935705
+        },
+        {
+            "id": "611fcc687b85e9a63cde89ade5dd1e8d",
+            "metric_id": "MissingValueCount(column=V27)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "04fa3377601f1b752a9592bd9d2f6053",
+            "metric_id": "MinValue(column=V27)",
+            "value": -9.89524404755692
+        },
+        {
+            "id": "4708551a4ab9bd4a05258875d8ea2727",
+            "metric_id": "MaxValue(column=V27)",
+            "value": 31.6121981061363
+        },
+        {
+            "id": "d9ff8e02530b7f43874101a5ef33e4c2",
+            "metric_id": "MeanValue(column=V27)",
+            "value": -0.0007000325083010009
+        },
+        {
+            "id": "b822b5bc428d640e082691144ac8732d",
+            "metric_id": "StdValue(column=V27)",
+            "value": 0.4180526281601839
+        },
+        {
+            "id": "c49cb2bd288d7ce35ebe29eb077166fa",
+            "metric_id": "QuantileValue(column=V27,quantile=0.25)",
+            "value": -0.07587897655095252
+        },
+        {
+            "id": "90a8e2056607104557a2ec9ac2f01d48",
+            "metric_id": "QuantileValue(column=V27,quantile=0.5)",
+            "value": -0.0094971799397195
+        },
+        {
+            "id": "9b6ad344d9293457d94be33aff1f2e87",
+            "metric_id": "QuantileValue(column=V27,quantile=0.75)",
+            "value": 0.09649122821857323
+        },
+        {
+            "id": "294c6bb9e1a8cdc20fc68492140ec746",
+            "metric_id": "MissingValueCount(column=V28)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "a332f2eb38dad3d1f8cd9b0a2372508c",
+            "metric_id": "MinValue(column=V28)",
+            "value": -15.4300839055349
+        },
+        {
+            "id": "8d43d2f065c1989887a5287a7c4d56e1",
+            "metric_id": "MaxValue(column=V28)",
+            "value": 22.6200722185803
+        },
+        {
+            "id": "7926f808b9ef75f71821311293a788da",
+            "metric_id": "MeanValue(column=V28)",
+            "value": -0.002263056059376585
+        },
+        {
+            "id": "1990625a7850123b433b39e90cc5266a",
+            "metric_id": "StdValue(column=V28)",
+            "value": 0.3523296678072842
+        },
+        {
+            "id": "b7d5352c30b6f178e1ae5cb280521fdc",
+            "metric_id": "QuantileValue(column=V28,quantile=0.25)",
+            "value": -0.06276936936111002
+        },
+        {
+            "id": "fa2594ad6c6bd5b30f4aea1252be883e",
+            "metric_id": "QuantileValue(column=V28,quantile=0.5)",
+            "value": -0.028601949523407652
+        },
+        {
+            "id": "5df2eb1072f48c8f3fcf2994f94132be",
+            "metric_id": "QuantileValue(column=V28,quantile=0.75)",
+            "value": 0.08002039401170985
+        },
+        {
+            "id": "575c88fb51b3ec0a3266b78f3e754d8c",
+            "metric_id": "MissingValueCount(column=Amount)",
+            "value": {
+                "count": 0.0,
+                "share": 0.0
+            }
+        },
+        {
+            "id": "3712f18fec665b92fd60a0900458f78f",
+            "metric_id": "MinValue(column=Amount)",
+            "value": 0.0
+        },
+        {
+            "id": "99c23da1bf0b35879a731ba27b946012",
+            "metric_id": "MaxValue(column=Amount)",
+            "value": 25691.16
+        },
+        {
+            "id": "cd23b1e0d839693841d58f826671706c",
+            "metric_id": "MeanValue(column=Amount)",
+            "value": 86.01219979775848
+        },
+        {
+            "id": "bb0305a5a38c6e7a8b8b165ef9638456",
+            "metric_id": "StdValue(column=Amount)",
+            "value": 253.70716137244452
+        },
+        {
+            "id": "9dbc721bf0b0f3a06cb7605e32911c09",
+            "metric_id": "QuantileValue(column=Amount,quantile=0.25)",
+            "value": 5.35
+        },
+        {
+            "id": "c4fd4f547874f35293e2b5c816ba285d",
+            "metric_id": "QuantileValue(column=Amount,quantile=0.5)",
+            "value": 20.15
+        },
+        {
+            "id": "0a10c6ca5d13614f8153d6ea0a032713",
+            "metric_id": "QuantileValue(column=Amount,quantile=0.75)",
+            "value": 74.0
+        }
+    ],
+    "tests": []
+}
